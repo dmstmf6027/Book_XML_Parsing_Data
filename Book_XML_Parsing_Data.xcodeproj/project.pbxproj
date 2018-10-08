@@ -12,6 +12,8 @@
 		6494E607216337D4005EB923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6494E605216337D4005EB923 /* Main.storyboard */; };
 		6494E609216337D8005EB923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6494E608216337D8005EB923 /* Assets.xcassets */; };
 		6494E60C216337D8005EB923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6494E60A216337D8005EB923 /* LaunchScreen.storyboard */; };
+		6494E61421633800005EB923 /* Book.XML in Resources */ = {isa = PBXBuildFile; fileRef = 6494E61321633800005EB923 /* Book.XML */; };
+		6494E61621633855005EB923 /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6494E61521633855005EB923 /* BookData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6494E608216337D8005EB923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6494E60B216337D8005EB923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6494E60D216337D8005EB923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6494E61321633800005EB923 /* Book.XML */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Book.XML; sourceTree = "<group>"; };
+		6494E61521633855005EB923 /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				6494E601216337D4005EB923 /* AppDelegate.swift */,
 				6494E603216337D4005EB923 /* ViewController.swift */,
+				6494E61521633855005EB923 /* BookData.swift */,
+				6494E61321633800005EB923 /* Book.XML */,
 				6494E605216337D4005EB923 /* Main.storyboard */,
 				6494E608216337D8005EB923 /* Assets.xcassets */,
 				6494E60A216337D8005EB923 /* LaunchScreen.storyboard */,
@@ -124,6 +130,7 @@
 			files = (
 				6494E60C216337D8005EB923 /* LaunchScreen.storyboard in Resources */,
 				6494E609216337D8005EB923 /* Assets.xcassets in Resources */,
+				6494E61421633800005EB923 /* Book.XML in Resources */,
 				6494E607216337D4005EB923 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				6494E604216337D4005EB923 /* ViewController.swift in Sources */,
 				6494E602216337D4005EB923 /* AppDelegate.swift in Sources */,
+				6494E61621633855005EB923 /* BookData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
